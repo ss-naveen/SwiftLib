@@ -13,6 +13,7 @@
 		85CEB2F427D522B1003FFC41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB2F327D522B1003FFC41 /* ContentView.swift */; };
 		85CEB2F627D522B3003FFC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB2F527D522B3003FFC41 /* Assets.xcassets */; };
 		85CEB2F927D522B3003FFC41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB2F827D522B3003FFC41 /* Preview Assets.xcassets */; };
+		85CEB2FE27D527F2003FFC41 /* SwiftLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEB2FD27D527F2003FFC41 /* SwiftLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		85CEB2F327D522B1003FFC41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85CEB2F527D522B3003FFC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85CEB2F827D522B3003FFC41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85CEB2FD27D527F2003FFC41 /* SwiftLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		85CEB2D527D52248003FFC41 = {
 			isa = PBXGroup;
 			children = (
+				85CEB2FD27D527F2003FFC41 /* SwiftLib.swift */,
 				85CEB2E127D52248003FFC41 /* SwiftLib */,
 				85CEB2F027D522B1003FFC41 /* SwiftLibExamples */,
 				85CEB2E027D52248003FFC41 /* Products */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CEB2E427D52248003FFC41 /* SwiftLib.docc in Sources */,
+				85CEB2FE27D527F2003FFC41 /* SwiftLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
